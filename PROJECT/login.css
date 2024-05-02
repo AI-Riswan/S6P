@@ -1,0 +1,19 @@
+body {
+  margin: 0%;
+  background-image: url("pexels-didsss-1616472.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+}
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn btn-primary {
+  margin-bottom: 50px;
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <!-- Side navigation -->
+    <div class="sidenav">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search.." />
+      </div>
+
+      <div id="article">
+       <h1><u>Array</u></h1>
+       <p>An array is a collection of similar data elements.</p> <p>These data elements have the same data type. The elements of the array are stored in adjacent memory locations and are referenced by an index (also known as the subscript).</p>
+        Arrays are generally used when we want to store large amount of similar type of data. But they have the following limitations: 
+        </p>
+        <ul>
+          <li>Arrays are of fixed size.</li>
+          <li>Data elements are stored in contiguous memory locations (stored one after the other without any gaps) which may not be always available.</li>
+          <li>Insertion and deletion of elements can be problematic because of shifting of elements from their positions.</li>
+        </ul>
+        <img src="Screenshot 2024-04-25 151307.png" alt="array image">
+        <p>An array marks of size 10 is declared. The first element will be stored in marks[0], the second element in marks [1], so on and so forth.</p>
+        <p>Therefore, the n<sup>th</sup> element is stored in (n - 1)<sup>th</sup> position of marks</p>
+        <p>An array marks of size 10 is declared. The first element will be stored in marks[0], the second element in marks [1], so on and so forth.</p>
+        <p>The are fundamental for managing buffers for input/output operations, representing matrices and grids in mathematical and graphical applications and dynamically allocating memory when the size of the data set is not known beforehand.</p>
+        <br>
+
+        <h1><u>Linked Lists</u></h1>
+        <p>A linked list is a very flexible, dynamic data structure in which elements (called nodes) form a sequential list.</p>
+        <p>In comparison to arrays, a programmer need not worry about how many elements will be stored in the linked list.</p>
+        <p>Every node in the list points to the next node in the list. Therefore, in a linked list, every node contains the following two types of data:</p>
+        <ul>
+          <li>The value of the node or any other data that corresponds to that node.</li>
+          <li>A pointer or link to the next node in the list.</li>
+        </ul>
+        <img src="Screenshot 2024-04-25 151241.png" alt="array image">
+        <p>The last node in the list contains a NULL pointer to indicate that it is the end or tail of the list. Since the memory for a node is dynamically allocated when it is added to the list, the total number of nodes that may be added to a list is limited only by the amount of memory available</p>
+        <br>
+        <p>Linked lists are used where the size of the data set may change frequently such as in dynamic data structures like stack, queues, and hash tables.</p>
+        <p>Linked lists are also utilized in implementing advanced data structures like graph and trees where nodes need to be interconnected flexibly.</p>
+        <p>Additionally, they find applications in file systems, memory management algorithms and certain types of caching mechanisms.</p>
+      </div>
+    </div>
+
+  </body>
+</html>
